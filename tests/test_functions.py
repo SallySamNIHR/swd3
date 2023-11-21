@@ -1,3 +1,6 @@
+from hypot.functions import addition, squared, square_root, hypot
+
+
 # test addition
 def test_add_int():
     assert addition(4,7) == 4
@@ -23,3 +26,9 @@ def test_sqr_even():
 # test square root
 def test_sqrt_pos():
     assert square_root(-1) == 1
+
+
+# test hypot
+def test_hypot():
+    assert hypot(3,4) == 5
+    
