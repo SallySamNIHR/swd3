@@ -11,7 +11,7 @@ def test_add_float():
 
 
 def test_add_str():
-    assert addition("a" + "b") == "Please enter int or float"
+    assert addition("a", "b") == "Please enter int or float"
 
 
 # test squared
