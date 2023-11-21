@@ -25,7 +25,7 @@ def test_sqr_even():
 
 # test square root
 def test_sqrt_pos():
-    assert square_root(-1) == 1
+    assert square_root(100) == 10
 
 
 # test hypot
