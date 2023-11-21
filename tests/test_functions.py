@@ -3,7 +3,7 @@ from hypot.functions import addition, squared, square_root, hypot
 
 # test addition
 def test_add_int():
-    assert addition(4,7) == 4
+    assert addition(4, 7) == 11
 
 
 def test_add_float():
@@ -30,5 +30,4 @@ def test_sqrt_pos():
 
 # test hypot
 def test_hypot():
-    assert hypot(3,4) == 5
-    
+    assert hypot(3, 4) == 5
